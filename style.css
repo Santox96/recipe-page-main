@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    color:hsl(30, 10%, 34%);
+    margin: 0%;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 17px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: none;
+    padding: 30px;
+    
+    
+    box-sizing: border-box;
+}
+.main-content{
+    max-width: 640px;
+    width: 100%;
+}
+.main-content .image-omelette{
+    border-radius: 20px;
+    width: 100%;
+}
+h1{
+    color: black;
+}
+h2{
+    color:hsl(14, 45%, 36%);
+}
+h1, h2{
+    font-family: YoungSerif, sans-serif;
+}
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+}
+.Preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+li{
+    padding-left: 12px;
+}
+
+li::marker {
+  color:hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+tr{
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+td{
+    height: 50px;
+    padding-left: 30px;
+}
+.attribution { 
+    margin-top: 80px ;
+    font-size: 0.6875rem; 
+    text-align: center; 
+    font-size: 17px;
+    background-color:hsl(14, 45%, 36%);
+    color: hsl(0, 0%, 100%);
+}
+.attribution a { 
+    color: hsl(0, 51%, 85%); 
+}
+@media screen and (min-width: 600px) {
+    .main-content{
+        width: 100%;
+    }
+    
+}
+    
