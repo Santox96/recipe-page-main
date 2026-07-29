@@ -26,6 +26,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
     border-radius: 20px;
+    margin: 10%;
 }
 .main-content{
     max-width: 640px;
@@ -80,7 +81,7 @@ td{
     font-weight: 700;
 }
 .attribution { 
-    margin-top: 80px ;
+    
     font-size: 0.6875rem; 
     text-align: center; 
     font-size: 17px;
@@ -90,12 +91,9 @@ td{
 .attribution a { 
     color: hsl(0, 51%, 85%); 
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 769px) {
     .main-content{
         width: 100%;
-    }
-    body{
-        min-width: 375px;
     }
 }
     
