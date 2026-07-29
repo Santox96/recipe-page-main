@@ -10,7 +10,7 @@ body{
     font-family: 'Outfit', sans-serif;
     color:hsl(30, 10%, 34%);
     margin: 0%;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(30, 54%, 90%);
     font-size: 17px;
 }
 .container{
@@ -19,10 +19,12 @@ body{
     justify-content: center;
     align-items: center;
     min-width: none;
+}
+.content{
     padding: 30px;
-    
-    
+    background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
+    border-radius: 20px;
 }
 .main-content{
     max-width: 640px;
@@ -51,10 +53,13 @@ h1, h2{
 li{
     padding-left: 12px;
 }
-
+.Preparation li::marker{
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
 li::marker {
-  color:hsl(14, 45%, 36%);
-  font-weight: 700;
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
 }
 table{
     border-collapse: collapse;
@@ -67,6 +72,10 @@ tr{
 td{
     height: 50px;
     padding-left: 30px;
+}
+.amount{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
 }
 .attribution { 
     margin-top: 80px ;
