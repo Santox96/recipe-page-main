@@ -12,6 +12,7 @@ body{
     margin: 0%;
     background-color: hsl(30, 54%, 90%);
     font-size: 17px;
+    
 }
 .container{
     display: flex;
@@ -46,12 +47,13 @@ h1, h2{
 .Preparation{
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
+    border-radius: 10px;
 }
 .Preparation h3{
     color: hsl(332, 51%, 32%);
 }
 li{
-    padding-left: 12px;
+    padding: 12px;
 }
 .Preparation li::marker{
     font-weight: 700;
@@ -88,10 +90,12 @@ td{
 .attribution a { 
     color: hsl(0, 51%, 85%); 
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 375px) {
     .main-content{
         width: 100%;
     }
-    
+    body{
+        min-width: 375px;
+    }
 }
     
